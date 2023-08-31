@@ -1,6 +1,10 @@
 :root{
   --color-brand: #2E2F42;
   --color-primary: #FFF;
+  --color-background: #404BBF;
+  --color-secondary: #4D5AE5;
+  --color-secondary-dark: #434455;
+  --color-secondary-light: #F4F4FD;
 }
 
 
@@ -19,6 +23,9 @@ letter-spacing: 0.02em;
 text-transform: uppercase;
 }
 
+.logo .accent {
+color: var(--color-secondary);
+}
 .nav-link {
 color: var(--color-brand);
 /* Body Medium */
@@ -30,7 +37,7 @@ letter-spacing: 0.32px;
 }
 
 .address {
-color:#434455;
+color: var(--color-secondary-dark);
 /* Body */
 font-size: 16px;
 font-style: normal;
@@ -56,20 +63,45 @@ letter-spacing: 1.12px;
 
 .button {
 color: var(--color-primary);
-background: #4D5AE5;
+background: var(--color-secondary);
 cursor: pointer;
 border: none;
 padding: 16px; 32px;
 border-radius: 4px;
 
-/* Button Text */
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
 }
 .button:hover {
-color: #FFF;
-background: #404BBF;
+color: var(--color-primary);
+background: var(--color-background);
+}
+
+.hide {
+visibility: hidden;
+}
+
+.title {
+color: var(--color-brand);
+}
+
+.subtitle {
+  color: var(--color-brand);
+}
+
+.text {
+  color: var(--color-secondary-dark);
+}
+
+.footer {
+background: var(--color-brand);
+}
+.logo-footer {
+color: var(--color-secondary-light);
+}
+
+.logo-footer .accent {
+color: var(--color-secondary);
+}
+
+.footer-text {
+color: var(--color-secondary-light);
 }
