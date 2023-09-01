@@ -9,41 +9,49 @@
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .logo {
 color: var(--color-brand);
 font-family: Raleway;
 font-size: 18px;
-font-style: normal;
 font-weight: 700;
-line-height: 1.17; /* 116.667% */
-letter-spacing: 0.02em;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-decoration: none;
 text-transform: uppercase;
 }
 
 .logo .accent {
 color: var(--color-secondary);
 }
+
 .nav-link {
 color: var(--color-brand);
-/* Body Medium */
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.32px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.nav-link:hover {
+color: var(--color-background);
 }
 
 .address {
 color: var(--color-secondary-dark);
-/* Body */
-font-size: 16px;
 font-style: normal;
+font-size: 16px;
 font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.address:hover {
+color: var(--color-background);
 }
 
 .hero-section {
@@ -53,12 +61,10 @@ background-color: var(--color-brand); /*TODO: replase with imags  */
 .hero-title {
 color: var(--color-primary);
 text-align: center;
-/* Header 1 */
 font-size: 56px;
-font-style: normal;
 font-weight: 700;
-line-height: 60px; /* 107.143% */
-letter-spacing: 1.12px;
+line-height: 1.07;
+letter-spacing: 0.02em;
 }
 
 .button {
@@ -66,10 +72,11 @@ color: var(--color-primary);
 background: var(--color-secondary);
 cursor: pointer;
 border: none;
-padding: 16px; 32px;
+padding: 16px 32px;
 border-radius: 4px;
 
 }
+
 .button:hover {
 color: var(--color-primary);
 background: var(--color-background);
@@ -79,16 +86,29 @@ background: var(--color-background);
 visibility: hidden;
 }
 
-.title {
+.club-title {
 color: var(--color-brand);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
 }
 
-.subtitle {
-  color: var(--color-brand);
+.club-subtitle {
+color: var(--color-brand);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 
-.text {
-  color: var(--color-secondary-dark);
+.club-text {
+color: var(--color-secondary-dark);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .footer {
@@ -96,6 +116,13 @@ background: var(--color-brand);
 }
 .logo-footer {
 color: var(--color-secondary-light);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-decoration: none;
+text-transform: uppercase;
 }
 
 .logo-footer .accent {
@@ -104,4 +131,8 @@ color: var(--color-secondary);
 
 .footer-text {
 color: var(--color-secondary-light);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
