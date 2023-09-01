@@ -10,11 +10,13 @@
 
 body {
 font-family: 'Roboto', sans-serif;
+color: var(--color-secondary-dark);
+background-color: var(--color-primary);
 }
 
 .logo {
-color: var(--color-brand);
-font-family: Raleway;
+color: var(--color-secondary);
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
@@ -24,7 +26,7 @@ text-transform: uppercase;
 }
 
 .logo .accent {
-color: var(--color-secondary);
+color: var(--color-brand);
 }
 
 .nav-link {
@@ -72,8 +74,6 @@ color: var(--color-primary);
 background: var(--color-secondary);
 cursor: pointer;
 border: none;
-padding: 16px 32px;
-border-radius: 4px;
 
 }
 
@@ -93,6 +93,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-transform: capitalize
 }
 
 .club-subtitle {
@@ -115,8 +116,8 @@ letter-spacing: 0.02em;
 background: var(--color-brand);
 }
 .logo-footer {
-color: var(--color-secondary-light);
-font-family: Raleway;
+color: var(--color-secondary);
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
@@ -126,7 +127,7 @@ text-transform: uppercase;
 }
 
 .logo-footer .accent {
-color: var(--color-secondary);
+color: var(--color-secondary-light);
 }
 
 .footer-text {
