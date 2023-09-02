@@ -135,8 +135,8 @@ letter-spacing: 0.02em;
 background-color: var(--color-secondary-light) 
 }
 
-.club-team {
-  background-color: var(--color-primary);
+.team {
+background-color: var(--color-primary);
 }
 
 .footer {
